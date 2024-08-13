@@ -8,7 +8,7 @@ function Portfolio() {
       <div className="text-center mb-5">
         <h2 className="display-4">My Projects</h2>
         <p className="lead">A showcase of my latest work and accomplishments</p>
-        <a className="btn btn-outline-primary btn-lg" href="https://github.com/">Clone Code</a>
+        <a className="btn btn-outline-primary btn-lg" href="https://github.com/WSPineda/CS3750-Portfolio/">Clone Code</a>
       </div>
       <div className="row g-4">
         {projects.map((project, index) => (

@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="text-center mt-auto">
       <div className="text-center">
-        Footer Text
+        Wendel Pineda
       </div>
     </footer>
   );
