@@ -5,7 +5,7 @@ function Header() {
     return (
         <nav className="navbar navbar-expand">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/">Your Name</Link>
+                <Link className="navbar-brand" to="https://github.com/WSPineda">Wendel Pineda</Link>
                 <div className="navbar-collapse">
                     <ul className="navbar-nav">
                         <li className="nav-item">
