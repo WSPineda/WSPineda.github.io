@@ -11,7 +11,7 @@ function Home() {
         <p className="lead text-center">Explore my projects and get to know my work.</p>
         <div className="text-center">
           <Link className="btn btn-primary btn-lg mr-3" to="/portfolio">View Portfolio</Link>
-          <a className="btn btn-outline-secondary btn-lg" href="https://github.com/">Clone Code</a>
+          <a className="btn btn-outline-secondary btn-lg" href="https://github.com/WSPineda/CS3750-Portfolio">Clone Code</a>
         </div>
       </div>
     </div>

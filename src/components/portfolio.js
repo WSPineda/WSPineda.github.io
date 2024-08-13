@@ -12,14 +12,14 @@ function Portfolio() {
       </div>
       <div className="row g-4">
         {projects.map((project, index) => (
-          <div className="col-md-4" key={index}>
-            <div className="card h-100 shadow-sm border-0">
-              <img src={project.image} className="card-img-top rounded" alt={project.title} />
-              <div className="card-body">
-                <h5 className="card-title text-center">{project.title}</h5>
-                <p className="card-text">{project.description}</p>
-                <div className="d-grid gap-2">
-                  <Link to={`/project/${project.id}`} className="btn btn-primary">View Details</Link>
+          <div className="col-md-6" key={index}>
+            <div className="card h-100 shadow-sm border-0 hover-shadow">
+              <img src={project.image} className="card-img-top rounded-top" alt={project.title} />
+              <div className="card-body d-flex flex-column">
+                <h5 className="card-title text-center fw-bold">{project.title}</h5>
+                <p className="card-text text-center flex-grow-1">{project.description}</p>
+                <div className="d-grid gap-2 mt-auto">
+                  <Link to={`/project/${project.id}`} className="btn btn-primary btn-block">View Details</Link>
                 </div>
               </div>
             </div>
