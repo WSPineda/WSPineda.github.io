@@ -1,0 +1,119 @@
+/***************************************************** 
+                  BASIC FORMATING
+******************************************************/
+.root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.background {
+  flex: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/***************************************************** 
+                         BASIC
+******************************************************/
+
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 4rem;
+}
+
+/***************************************************** 
+                        BUTTONS
+******************************************************/
+.btn-primary {
+  margin: 20px 0;
+}
+
+/***************************************************** 
+                      HEADER
+******************************************************/
+
+.navbar {
+  background-color: cadetblue;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  color: white;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+  color: lightgray;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2rem;
+  color: white;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+/***************************************************** 
+                      FOOTER
+******************************************************/
+
+footer {
+  background-color: cadetblue;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+/***************************************************** 
+                         CARD
+******************************************************/
+
+.card {
+  padding: 40px;
+  margin: 50px;
+}
+
+/***************************************************** 
+                         FORM
+******************************************************/
+
+.form-control, .form-select {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 3px;
+}
+
+.form-control:focus{
+  background-color:ghostwhite;
+}
+
+.form-label {
+  padding: 10px;
+}
+
+/***************************************************** 
+                      IMAGES
+******************************************************/
+
+.detail-image {
+  max-width: 500px;
+}
